@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="1"
+    name="MVP Fragment"
+    description="Creates a new Fragment with Contract and Preaenter">
+
+    <category value="MVP" />
+    <formfactor value="Mobile" />
+
+    <parameter
+        id="className"
+        name="Instance Name"
+        type="string"
+        constraints="class|nonempty|unique"
+        default="Simple" />
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
