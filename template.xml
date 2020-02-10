@@ -3,7 +3,7 @@
     format="5"
     revision="1"
     name="MVP Fragment"
-    description="Creates a new Fragment with Contract and Preaenter">
+    description="Creates a new Fragment with Contract and Preaenter for Moxy and AndroidX">
 
     <category value="MVP" />
     <formfactor value="Mobile" />
